@@ -79,8 +79,8 @@ int main()
   for(i=0; i<repeticion; i++)
   {
     pto_inf->array_p[pos].numero++;
-    printf("\tnumero: %d\n",i);
-    usleep(500000);
+    printf("Numero: %d\n",i);
+    usleep(400000);
   }
 
   pto_inf->array_p[pos].termino = 1;
